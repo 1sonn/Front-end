@@ -1,0 +1,73 @@
+@font-face {
+    font-family: 'Figtree';
+    src: url(tipografia/Figtree-Italic-VariableFont_wght.ttf);
+    src: url(tipografia/Figtree-VariableFont_wght.ttf);
+}
+
+body{
+    /*Revisar esta parte, para saber que significa*/
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+
+    font-size: 16px;
+    font-family: 'figtree', sans-serif;
+    font-weight: 500;
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
+}
+
+#prime{
+    width: 376px;
+    height: auto;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 8px 8px hsl(0, 0%, 7%);
+}
+
+div{
+    background-color: hsl(0, 0%, 100%);
+    margin: 20px;
+}
+
+.illustration{
+    border-radius: 10px;
+}
+
+.learning{
+    width: 70px;
+    font-weight: 800;
+    padding: 6px;
+    padding-left: 10px;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+}
+
+h1{
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.text{
+    color: hsl(0, 0%, 42%);
+}
+
+/*Revisar esta parte, para saber que significa*/
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.container img{
+    margin-right: 10px;
+}
+/*Hasta acá*/
+
+.avatar{
+    width: 33px;
+}
+
+.Greg{
+    font-weight: 800;
+}
